@@ -13,7 +13,7 @@ import {
 } from './ProjectsElements';
 
 const Projects = () => {
-	const [projects, setProjects] = useState(data);
+	const projects = data;
 	const [showInfo, setShowInfo] = useState(false);
 	return (
 		<>
